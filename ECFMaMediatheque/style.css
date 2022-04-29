@@ -1,0 +1,529 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/************************************************************ HEADER ****************************************************/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header .logo {
+  height: auto;
+  width: 70px;
+  margin-bottom: 20px;
+}
+.Administrateur{
+  display: flex;
+  justify-content: center;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+nav .barre_search {
+  margin-top: 25px;
+  margin-left: 180px;
+  height: 30px;
+  width: 400px;
+}
+nav .identification {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+nav .categorie {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+nav .insc {
+  margin-right: 20px;
+}
+nav .connexion {
+  margin-right: 20px;
+}
+
+.submit_search {
+  width: auto;
+  height: 30px;
+}
+
+.select {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 250px;
+  height: 40px;
+}
+
+.option {
+  padding: 0 30px 0 10px;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-top: #fff solid 1px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  pointer-events: none;
+  order: 2;
+  z-index: 1;
+  transition: background 0.4s ease-in-out;
+  box-sizing: border-box;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.submit_emp1{
+ display: flex;
+ justify-content: center;
+ margin-top: 10px;
+ margin-bottom: 10px;
+
+}
+.submit_emp{
+  text-decoration: none;
+  list-style-type: none;
+  color: #000;
+  border: 2px solid #4CAF50; /* Green */
+}
+
+.option:hover {
+  background: #333;
+  color: #fff;
+}
+
+.select:focus .option {
+  position: relative;
+  pointer-events: all;
+}
+
+.selectopt {
+  opacity: 0;
+  position: absolute;
+}
+.trait_hr {
+  margin: 0;
+}
+/************************************************************ INDEX ****************************************************/
+.container_acceuil {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fff;
+  border-radius: 10px;
+  height: 100%;
+  width: 90%;
+  background-color: #fff;
+  margin-left: 50px;
+  overflow: hidden;
+}
+.submit_emp4{
+margin-right: 20px;
+}
+
+.body_color {
+  background-color: #dcdcdc;
+}
+.globale {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.barre_nouveaute_a {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.barre_nouveaute {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+.barre_nouveaute_r {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+.card_globale{
+  margin-left: 60px;
+  margin-bottom: 40px;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+}
+.card_header img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.card_body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  min-height: 250px;
+}
+.tag {
+  background: #cccccc;
+  border-radius: 50px;
+  font-size: 12px;
+  margin: 0;
+  color: #fff;
+  padding: 2px 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.tag_teal {
+  background-color: #47bcd4;
+}
+.card_body p {
+  font-size: 13px;
+  margin: 0 0 40px;
+}
+.user {
+  display: flex;
+  margin-top: auto;
+}
+.user img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.user-info h5 {
+  margin: 0;
+}
+.user-info small {
+  color: #545d7a;
+}
+
+.filtre {
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-left: 60px;
+}
+.fCategory {
+  color: black;
+  background: linear-gradient(262deg, #b0c4de, #b0c4de);
+  border: none;
+  border-radius: 2px;
+  font-family: Retina, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  height: 33px;
+  padding: 8px 12px;
+  margin-right: 100px;
+}
+/* body .categorie{
+  display: flex;
+  justify-content: center;
+  
+}
+
+#cate_select{
+  display: flex;
+  flex-wrap: wrap;
+flex-direction: column;
+} */
+
+/************************************************************ INSCRIPTION  *************************************************/
+.container_color_inscription {
+  background-color: rgb(220, 220, 220);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.color_carre_inscription {
+  background-color: white;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 650px;
+  padding: 20px;
+  width: 320px;
+}
+.title_inscription_co {
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.title2_inscription_co {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.input_inscription_co {
+  /* background-color: #303245; */
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
+}
+.input_container_inscription_co {
+  height: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.ic1 {
+  margin-top: 40px;
+  background-color: black;
+}
+.ic2 {
+  background-color: black;
+  margin-top: 30px;
+}
+
+.placeholder {
+  font-family: sans-serif;
+  left: 20px;
+  line-height: 14px;
+  pointer-events: none;
+  position: absolute;
+  transform-origin: 0 50%;
+  transition: transform 200ms, color 200ms;
+  top: 20px;
+}
+.submit_inscription {
+  background-color: #08d;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 38px;
+  outline: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.submitinsc:active {
+  background-color: #06b;
+}
+.link_connexion a {
+  margin-bottom: 15px;
+  text-decoration: none;
+  /* color: white; */
+}
+.link_connexion {
+  margin-top: 5px;
+}
+
+/************************************************************ CONNEXION  *************************************************/
+
+.input_connexion {
+  background-color: white;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
+}
+.container_connexion {
+  background-color: rgb(220, 220, 220);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container2_connexion {
+  background-color: white;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 520px;
+  padding: 20px;
+  width: 320px;
+}
+.submit_connexion {
+  background-color: #08d;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 38px;
+  outline: 0;
+  text-align: center;
+  width: 100%;
+}
+/* ----------------------------------------------------------- MON COMPTE --------------------------------------------------------------------------------*/
+.main_compte_pu {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.container_compte_pu {
+  display: flex;
+  margin: 70px auto 0;
+  max-width: 972px;
+  min-width: 768px;
+}
+.cote_right_compte_pu {
+  display: flex;
+  flex-direction: column;
+  margin: 0 84px 0 16px;
+  min-height: 350px;
+  position: relative;
+  width: 185px;
+}
+
+.cote_left_compte_pu {
+  flex: 1;
+  max-width: 461px;
+  padding-bottom: 40px;
+}
+.input_compte {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  margin-bottom: 30px;
+  padding: 0px;
+  align-items: baseline;
+}
+.submit_compte_maj {
+  background: linear-gradient(262deg, #00d2f3, #0af);
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-family: Retina, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  height: 33px;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+}
+.inputclass_compte {
+  background-color: #fff;
+  color: #000;
+  flex: 1;
+  font-size: 14px;
+  height: unset;
+  padding: 8px 12px;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+.form_input {
+  padding: 0 16px;
+  width: 100%;
+}
+.navigationitemp {
+  color: #7f7f7f;
+  font-size: 14px;
+  padding: 10px 0;
+}
+.trait {
+  border-right: 1px solid #d9d9d9;
+  content: "";
+  height: 90%;
+  position: absolute;
+  right: 0;
+}
+
+.buttonform {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.pseudoclass {
+  font-size: 14px;
+  justify-content: flex-end;
+  margin-bottom: 0;
+  margin-right: 30px;
+  width: 45px;
+}
+.btnDeelete{
+  background: linear-gradient(262deg, #00d2f3, #0af);
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-family: Retina, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  height: 33px;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+}
+input {
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+/* ----------------------------------------------------- MON COMPTE -----------------------------------------------------*/
+
+.inputclass_compte{
+margin-bottom: 10px;
+}
+
+
+/*------------------------------------------------- Admin-------------------------------------------------------------------*/
+.admin_submit{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+
+}
+.submit_cree{
+  margin-right: 20px;
+  text-decoration: none;
+}
+.submit_ajoute{
+  text-decoration: none;
+}
+.info_users{
+  display: block;
+  justify-content: flex-start;
+}
+.info_users ul {
+  display: block;
+  flex-wrap: wrap;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+}
+
+ul {
+  list-style-type: none;
+  background-color: #e1e9e1;
+}
+/************************************************************ INDEX ****************************************************/
+.h4{
+  display: flex;
+  justify-content: center;
+}
+.card_globale_1{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
